@@ -125,6 +125,7 @@ h1,h2,h3,h4,h5,a,.premix-news-img p,
 }
 .section-padding{
 	padding: 112px 0px;
+	height: 100vh;
 }
 .content-margin-top{
 	margin-top: 85px;
