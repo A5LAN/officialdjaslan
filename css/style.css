@@ -360,7 +360,7 @@ header.premix-main-menu-area.fixedMenu .premix-menu ul li ul {
     top: 92px;
 }
 header.premix-main-menu-area.fixedMenu .logo {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 header.premix-main-menu-area.fixedMenu {
     background-color: rgba(23, 23, 23, .9);
@@ -484,7 +484,7 @@ header.premix-main-menu-area.fixedMenu {
 	padding-left: 5px;
 }
 .logo{
-	padding: 35px 0;
+	padding: 50px 0;
 	transition: all .4s;
 }
 /*
