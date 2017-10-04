@@ -146,11 +146,11 @@ h1,h2,h3,h4,h5,a,.premix-news-img p,
 	height: calc(100% + 123px);
 }
 .premix-btn{
-	color: #fff;
+	color: #3dbfbf;
 }
 .premix-btn.light-red-btn{
 	display: inline-block;
-	background-color: #E54148;
+	background-color: #fff;
 	padding: 10px 35px;
 	border-radius: 5px;
 	font-size: 1.067em;
@@ -158,8 +158,8 @@ h1,h2,h3,h4,h5,a,.premix-news-img p,
 	transition: all .4s;
 }
 .premix-btn.light-red-btn:hover{
-	color: #E54148;
-	background-color: #fff;
+	color: #fff;
+	background-color: #3dbfbf;
 }
 .premix-latest-news-section.section-padding,
 .premix-our-artist-section.section-padding{
