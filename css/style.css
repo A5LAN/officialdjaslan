@@ -146,11 +146,13 @@ h1,h2,h3,h4,h5,a,.premix-news-img p,
 	height: calc(100% + 123px);
 }
 .premix-btn{
-	color: #3dbfbf;
+	color:#fff;
 }
 .premix-btn.light-red-btn{
+	border-style: groove;
+	border-color:#fff;
 	display: inline-block;
-	background-color: #fff;
+	background-color: transparent;
 	padding: 10px 35px;
 	border-radius: 5px;
 	font-size: 1.067em;
@@ -159,7 +161,7 @@ h1,h2,h3,h4,h5,a,.premix-news-img p,
 }
 .premix-btn.light-red-btn:hover{
 	color: #fff;
-	background-color: #3dbfbf;
+	background-color:#3dbfbf;
 }
 .premix-latest-news-section.section-padding,
 .premix-our-artist-section.section-padding{
@@ -396,11 +398,11 @@ header.premix-main-menu-area.fixedMenu {
 }
 .premix-main-menu-area .premix-single::-webkit-progress-value {
   background-color: transparent;
-  background-image: -webkit-linear-gradient(left, #541C71 , #E54148 );
+  background-image: -webkit-linear-gradient(left, #541C71 , #3dbfbf );
 }
 .premix-main-menu-area .premix-single::-moz-progress-bar {
   background-color: transparent;
-  background-image: -moz-linear-gradient(left, #541C71, #E54148);
+  background-image: -moz-linear-gradient(left, #541C71, #3dbfbf);
 }
 .premix-main-menu-area .premix-multiple::-webkit-progress-value {
   background-image: -webkit-linear-gradient(-45deg, 
@@ -447,10 +449,12 @@ header.premix-main-menu-area.fixedMenu {
 	visibility: hidden;
 	transition: all .4s cubic-bezier(0.65, 0.05, 0.36, 1);
 	transform: translate3d(0, 20%, 0);
-	background-color: #E54148;
+	background-color: #3dbfbf;
 }
 .premix-menu ul li ul li:hover{
-	background-color: #D4373F;
+
+	background-color: #093842;
+
 }
 .premix-menu ul li ul li{
 	width: 100%;
@@ -475,7 +479,7 @@ header.premix-main-menu-area.fixedMenu {
 	transition: all .4s ease-out;
 }
 .premix-menu ul li a:hover{
-	color: #E54148;
+	color: #3dbfbf;
 }
 .premix-menu ul li ul li a:hover{
 	color: #fff;
@@ -573,7 +577,7 @@ header.premix-main-menu-area.fixedMenu {
 	transition: all .4s ease-in;
 }
 .premix-single-artist:hover{
-	border-color: #E54148; 
+	border-color: #3dbfbf; 
 }
 .premix-single-artist-details{
 	position: absolute;
@@ -596,7 +600,7 @@ header.premix-main-menu-area.fixedMenu {
 	transition: all .4s ease-in;
 }
 .premix-single-artist:hover .premix-single-artist-details h4{
-	color: #E54148;
+	color: #3dbfbf;
 }
 .premix-single-artist-details p{
 	margin: 0;
@@ -646,7 +650,7 @@ header.premix-main-menu-area.fixedMenu {
 	transition: all .4s ease-out;
 }
 .premix-artist-social-details ul li a:hover{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 }
 .premix-single-artist .premix-artist-social-details ul li.premix-social-h-1,
 .premix-single-artist .premix-artist-social-details ul li.premix-social-h-2,
@@ -683,7 +687,7 @@ header.premix-main-menu-area.fixedMenu {
 	transition: all .4s ease-out;
 }
 #premix-slider.owl-theme .owl-controls .owl-page.active span{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 }
 /*
 |-----------------------------------------------------------------------
@@ -735,7 +739,7 @@ header.premix-main-menu-area.fixedMenu {
 .premix-btn.border-btn{
 	position: relative;
 	text-transform: uppercase;
-	border: 1px solid #E54148;
+	border: 1px solid #3dbfbf;
 	display: inline-block;
 	padding: 5px 25px;
 	border-radius: 5px;
@@ -743,7 +747,7 @@ header.premix-main-menu-area.fixedMenu {
 	transition: all .4s;
 }
 .premix-btn.border-btn:hover{
-	color: #E54148;
+	color: #3dbfbf;
 	border: 1px solid #fff;
 	background-color: #fff;
 }
@@ -790,7 +794,7 @@ header.premix-main-menu-area.fixedMenu {
 	opacity: 1;
 }
 .premix-single-album:hover .premix-album-details h4{
-	color: #E54148;
+	color: #3dbfbf;
 }
 /* OUR STORY */
 .premix-our-story-left p{
@@ -827,7 +831,7 @@ header.premix-main-menu-area.fixedMenu {
 }
 .premix-event-time,
 .premix-event-title{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -891,10 +895,10 @@ header.premix-main-menu-area.fixedMenu {
 .premix-next-event ul li:hover .premix-event-time h3,
 .premix-next-event ul li:hover .premix-event-title h4,
 .premix-next-event ul li:hover .premix-event-title p{
-	color: #E54148;
+	color: #3dbfbf;
 }
 .premix-next-event ul li:hover .premix-btn.details-btn{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
 }
 /*
@@ -903,7 +907,7 @@ header.premix-main-menu-area.fixedMenu {
 |-----------------------------------------------------------------------
 */
 .premix-latest-news-header{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
 	padding: 30px 20px;
 }
@@ -974,7 +978,7 @@ header.premix-main-menu-area.fixedMenu {
 	transition: all .4s;
 }
 .premix-btn.readmore-btn:hover{
-	color: #E54148;
+	color: #3dbfbf;
 }
 .readmore-btn:before{
 	position: absolute;
@@ -993,9 +997,9 @@ header.premix-main-menu-area.fixedMenu {
 |-----------------------------------------------------------------------
 */
 .premix-purchase-now-section{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
-	padding: 85px 0;
+	padding: 30px 0;
 	text-transform: uppercase;
 }
 .premix-purchase-now-section p{
@@ -1016,7 +1020,7 @@ header.premix-main-menu-area.fixedMenu {
 }
 .premix-btn.white-border-btn:hover{
 	background-color: #fff;
-	color: #E54148;
+	color: #3dbfbf;
 }
 /*
 |-----------------------------------------------------------------------
@@ -1067,7 +1071,7 @@ header.premix-main-menu-area.fixedMenu {
     align-items: center;
 }
 .premix-social-list ul li a:hover{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
 }
 .premix-single-recent-news h5{
@@ -1247,7 +1251,7 @@ header.premix-main-menu-area.fixedMenu {
 }
 .premix-our-team-hover-content ul li a:hover{
 	background-color: #FFFFFF;
-	color: #E54148;
+	color: #3dbfbf;
 }
 .premix-our-team-hover-content:before{
 	position: absolute;
@@ -1256,7 +1260,7 @@ header.premix-main-menu-area.fixedMenu {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	z-index: -1;
 	opacity: .8;
 	transform: scale(.9);
@@ -1280,7 +1284,7 @@ header.premix-main-menu-area.fixedMenu {
 	bottom: -100%;
 }
 .premix-our-team-main-wraper:hover{
-	border-color: #E54148;
+	border-color: #3dbfbf;
 }
 .premix-our-team-main-wraper:hover .premix-our-team-hover-content{
 	transform: scale3d(1,1,1);
@@ -1291,11 +1295,11 @@ header.premix-main-menu-area.fixedMenu {
 }
 .premix-sponsor-img img{
 	border-radius: 5px;
-	border: 1px solid #E54148;
+	border: 1px solid #3dbfbf;
 	transition: all .2s ease-out;
 }
 .premix-sponsor-img  img:hover{
-	box-shadow: 0 0 0 2px #E54148;
+	box-shadow: 0 0 0 2px #3dbfbf;
 }
 .premix-twitter-feed{
 	padding: 200px 0;
@@ -1356,7 +1360,7 @@ header.premix-main-menu-area.fixedMenu {
 .premix-contact-us-area input[type="email"]:focus,
 .premix-contact-us-area input[type="password"]:focus,
 .premix-contact-us-area textarea:focus{
-	border-bottom: 1px solid #E54148;
+	border-bottom: 1px solid #3dbfbf;
 }
 .premix-contact-us-area textarea{
 	margin-bottom: 40px;
@@ -1364,7 +1368,7 @@ header.premix-main-menu-area.fixedMenu {
 }
 .premix-contact-us-area input[type="submit"]{
 	background-color: transparent;
-	border: 1px solid #E54148;
+	border: 1px solid #3dbfbf;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.067em;
@@ -1378,7 +1382,7 @@ header.premix-main-menu-area.fixedMenu {
 }
 .premix-contact-us-area input[type="submit"]:hover,
 .premix--form-submit input[type="submit"]:hover{
-	color: #E54148;
+	color: #3dbfbf;
 	background-color: #fff;
 	border: 1px solid #fff;
 }
@@ -1472,7 +1476,7 @@ label.error {
 	letter-spacing: 2px;
 }
 .premix-btn.orange-btn{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	border: 0px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -1481,7 +1485,7 @@ label.error {
 	transition: all .4s;
 }
 .premix-btn.orange-btn:hover{
-	color: #E54148;
+	color: #3dbfbf;
 	background-color: #fff;
 }
 .premix-feature-product{
@@ -1648,7 +1652,7 @@ label.error {
 	transform: scale(1.1) rotate(2deg);
 }
 .premix-product-grid:hover .premix-product-details h4{
-	color: #E54148;
+	color: #3dbfbf;
 }
 .ui-state-default, .ui-widget-content .ui-state-default{
 	background-color: transparent;
@@ -1662,7 +1666,7 @@ label.error {
 	width: 15px;
 }
 .ui-slider-range{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 }
 .ui-widget.ui-widget-content{
 	border: 0px solid;
@@ -1715,7 +1719,7 @@ label.error {
 	margin: 0 auto;
 }
 .premix-countdown-timer{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	width: 100%;
 	text-align: center;
 	padding: 100px 0;
@@ -1802,7 +1806,7 @@ label.error {
 	transition: all .4s ease-in;
 }
 .premix-btn.next-and-prev-btn:hover{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
 }
 .premix-btn-group a:nth-child(even){
@@ -1851,7 +1855,7 @@ label.error {
 }
 .premix-error-page .premix-btn.light-red-btn{
 	background-color: transparent;
-	border: 1px solid #E54148;
+	border: 1px solid #3dbfbf;
 }
 /*
 |-----------------------------------------------------------------------
@@ -1963,7 +1967,7 @@ input[type=number]::-webkit-outer-spin-button {
 	opacity: 1;
 }
 .premix-add-to-chart-form input[type="submit"]{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
 	text-transform: uppercase;
 	border: 0px solid;
@@ -1974,7 +1978,7 @@ input[type=number]::-webkit-outer-spin-button {
 	transition: all .4s ease-out;
 }
 .premix-add-to-chart-form input[type="submit"]:hover{
-	color: #E54148;
+	color: #3dbfbf;
 	background-color: #fff;
 }
 /*
@@ -2071,7 +2075,7 @@ button.mfp-close, button.mfp-arrow{
 */
 .premix-single-blog-page-element img{
 	width: 100%;
-	border: 2px solid #E54148;
+	border: 2px solid #3dbfbf;
 	margin-bottom: 60px;
 }
 .premix-social-list span{
@@ -2132,7 +2136,7 @@ button.mfp-close, button.mfp-arrow{
 	transition: all .4s ease-in;
 }
 .premix-side-bar-tag a:hover{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 }
 .premix-single-blog-page-element .premix-single-details{
 	margin-bottom: 84px;
@@ -2180,7 +2184,7 @@ button.mfp-close, button.mfp-arrow{
 	text-transform: uppercase;
 }
 .premix--reply{
-	color: #E54148 !important;
+	color: #3dbfbf !important;
 	text-transform: uppercase;
 	margin-left: 25px;
 }
@@ -2237,7 +2241,7 @@ button.mfp-close, button.mfp-arrow{
 }
 .premix--form-submit input[type="submit"]{
 	background-color: transparent;
-	border: 1px solid #E54148;
+	border: 1px solid #3dbfbf;
 	border-radius: 5px;
 	text-transform: uppercase;
 	padding: 8px 20px;
@@ -2278,7 +2282,7 @@ button.mfp-close, button.mfp-arrow{
 	background-color: #fff !important;
 }
 .aplayer-played{
-	background-color: #E54148 !important;
+	background-color: #3dbfbf !important;
 }
 #premix-player.aplayer .aplayer-pic {
     background-image: url(img/logo.png);
@@ -2344,7 +2348,7 @@ button.mfp-close, button.mfp-arrow{
 	background-color: transparent !important;
 }
 .aplayer .aplayer-list ol li:hover span{
-	color: #E54148 !important;
+	color: #3dbfbf !important;
 }
 .aplayer .aplayer-list ol li{
 	border-top: 1px solid #171717 !important;
@@ -2353,7 +2357,7 @@ button.mfp-close, button.mfp-arrow{
 	font-size: 1em !important;
 }
 .aplayer .aplayer-list ol li.aplayer-list-light span{
-	color: #E54148 !important;	
+	color: #3dbfbf !important;	
 }
 .aplayer .aplayer-pic .aplayer-play .aplayer-icon-play {
 	top: 50% !important;
@@ -2408,7 +2412,7 @@ button.mfp-close, button.mfp-arrow{
 	margin-bottom: 30px;
 }
 .aplayer-volume{
-	background-color: #E54148 !important;
+	background-color: #3dbfbf !important;
 }
 .aplayer-volume-bar{
 	background-color: #fff !important;
@@ -2502,7 +2506,7 @@ button.mfp-close, button.mfp-arrow{
 	border-radius: 0 5px 5px 0 !important;
 }
 .active.premix-tab a{
-	background-color: #E54148 !important;
+	background-color: #3dbfbf !important;
 	color: #fff !important;
 	border: 0px solid !important;
 }
@@ -2566,7 +2570,7 @@ button.mfp-close, button.mfp-arrow{
 .woocommerce p.stars a:before{
 	font-family: 'FontAwesome' !important;
 	content: "\f006";
-	color: #E54148;
+	color: #3dbfbf;
 }
 
 .woocommerce p.stars a {
@@ -2585,7 +2589,7 @@ button.mfp-close, button.mfp-arrow{
 .comment-form-author input[type="text"]:focus,
 .comment-form-email input[type="email"]:focus,
 .comment-form-comment textarea:focus{
-	border-bottom: 1px solid #E54148;
+	border-bottom: 1px solid #3dbfbf;
 }
 .comment-form-comment textarea{
 	resize: none;
@@ -2596,7 +2600,7 @@ button.mfp-close, button.mfp-arrow{
 	padding: 0;
 }
 .premix-product-review .form-submit input[type="submit"]{
-	background-color: #E54148 !important;
+	background-color: #3dbfbf !important;
 	color: #fff !important;
 	text-transform: uppercase;
 	font-weight: 500 !important;
@@ -2646,7 +2650,7 @@ button.mfp-close, button.mfp-arrow{
 }
 .woocommerce-message{
 	border-top: 0px;
-	border-bottom: 5px solid #E54148;
+	border-bottom: 5px solid #3dbfbf;
 }
 .woocommerce-message span{
 	text-transform: uppercase;
@@ -2660,7 +2664,7 @@ button.mfp-close, button.mfp-arrow{
 }
 .button.wc-forward,
 .button.wc-backward{
-	background-color: #E54148 !important;
+	background-color: #3dbfbf !important;
 	color: #fff !important;
 	font-weight: 300 !important;
 	text-transform: uppercase;
@@ -2670,7 +2674,7 @@ button.mfp-close, button.mfp-arrow{
 }
 .button.wc-forward:hover,
 .button.wc-backward:hover{
-	color: #E54148 !important;
+	color: #3dbfbf !important;
 	background-color: #fff !important;
 }
 .shop_table_responsive{
@@ -2705,7 +2709,7 @@ button.mfp-close, button.mfp-arrow{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 300;
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	display: inline-block;
 	transition: all .4s ease-out;
 }
@@ -2762,8 +2766,8 @@ button.mfp-close, button.mfp-arrow{
 	margin-bottom: 20px !important;
 }
 .woocommerce a.remove{
-	border: 1px solid #E54148;
-	color: #E54148 !important;
+	border: 1px solid #3dbfbf;
+	color: #3dbfbf !important;
 	font-size: 1.333em;
 	height: 30px;
 	width: 30px;
@@ -2800,7 +2804,7 @@ button.mfp-close, button.mfp-arrow{
 	margin-right: 15px;
 }
 .coupon input[type="submit"]{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
 }
 /* Pricing Plan */
@@ -2845,7 +2849,7 @@ button.mfp-close, button.mfp-arrow{
     background-color: transparent;
     transform: rotate(15deg);
     z-index: -1;
-    border-bottom: 2px solid #E54148;
+    border-bottom: 2px solid #3dbfbf;
     border-radius: 5px;
 }
 .premix-pricing-table-head:after{
@@ -2864,18 +2868,18 @@ button.mfp-close, button.mfp-arrow{
 .premix-pricing-table-wraper .premix-btn.border-btn{
 	color: #fff;
 	letter-spacing: 2px;
-	border: 2px solid #E54148;
+	border: 2px solid #3dbfbf;
 }
 .premix-pricing-table-wraper:hover .premix-pricing-table-head:before,
 .premix-pricing-table-wraper:hover .premix-pricing-table-head:after{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 }
 .premix-pricing-table-wraper:hover .premix-pricing-table-head h4,
 .premix-pricing-table-wraper:hover .premix-pricing-table-head p{
 	color: #fff
 }
 .premix-pricing-table-wraper:hover .premix-btn.border-btn{
-	background-color: #E54148;
+	background-color: #3dbfbf;
 	color: #fff;
 }
 /* Premix My Account Page */
@@ -2898,7 +2902,7 @@ button.mfp-close, button.mfp-arrow{
 }
 .premix-contact-us-area a{
 	text-transform: uppercase;
-	color: #E54148;
+	color: #3dbfbf;
 	font-size: 0.933em;
 }
 .premix-contact-us-area h4{
@@ -3145,7 +3149,7 @@ header.premix-main-menu-area.fixedMenu .collapse-button{
 }
 .premix-event-time{
     background-color: #fff;
-    color: #E54148;
+    color: #3dbfbf;
 }
 ul.slimmenu li .sub-toggle>i {
     color: #fff;
