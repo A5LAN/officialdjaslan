@@ -263,6 +263,11 @@ $(document).ready(function() {
         mode: 'random',
         music: [
             {
+                title: 'The Feel',
+                author: 'ASLAN',
+                url: 'media/TheFeel.mp3',
+            },
+            {
                 title: 'Breathe',
                 author: 'ASLAN',
                 url: 'media/Breathe.mp3',
@@ -282,12 +287,7 @@ $(document).ready(function() {
                 author: 'ASLAN',
                 url: 'media/YouNMe.mp3',
             },
-            {
-                title: 'Its Alright',
-                author: 'ASLAN',
-                url: 'media/ItsAlright.mp3',
-            }
-        ]
+          ]
     });
   } // End is_exists
 
@@ -301,6 +301,11 @@ $(document).ready(function() {
         theme: '#e6d0b2',
         mode: 'random',
         music: [
+              {
+                title: 'The Feel',
+                author: 'ASLAN',
+                url: 'media/TheFeel.mp3',
+              },
               {
                   title: 'Breathe',
                   author: 'ASLAN',
@@ -321,12 +326,7 @@ $(document).ready(function() {
                   author: 'ASLAN',
                   url: 'media/YouNMe.mp3',
               },
-              {
-                  title: 'Its Alright',
-                  author: 'ASLAN',
-                  url: 'media/ItsAlright.mp3',
-              }
-          ]
+            ]
 
     });
     $('.aplayer-list').addClass('aplayer-list-hide');
